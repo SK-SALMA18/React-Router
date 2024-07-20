@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image: url('Images/3.jpeg');
+    height:100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: deeppink;
+}
+.logo{
+    margin-left: 1rem;
+    color:wheat;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.item{
+    display: flex;
+}
+.ul{
+    display: flex;
+    margin: 25px;
+}
+li{
+    margin: 0 1rem;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:azure;
+    font-weight: bolder;
+}
+.footpage{
+    display: flex;
+    background-color: black;
+    padding: 30px;
+    color:aliceblue;
+    align-items: flex-end;
+}
+.homepage{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50);
+    text-align: center;
+    color: white;
+}
+.homepage h1{
+    font-size: 50px;
+    margin-top: 5px;
+    color: black;
+}
+.homepage p{
+    margin: 20px auto;
+    font-weight: 100;
+    font-size: 20px;
+    height: 25px;
+    font-style: italic;
+}
+.aboutpage{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50);
+    text-align: center;
+    color: white;
+    font-style: oblique;
+}
+.serv{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50);
+    text-align: center;
+    color: white;  
+}
+.serv h1{
+    font-size: 50px;
+    margin-top: 5px;
+    color: black;   
+}
+.serv p{
+    margin: 20px auto;
+    font-weight: 100;
+    font-size: 20px;
+    height: 25px;
+    font-style: italic;   
+}
+.serv button{
+    padding: 5px;
+    background-color: cornflowerblue;
+
+}
+.contact{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    background-color: palevioletred;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 450px;
+}
+input{
+    margin: 5px 0px;
+    height: 35px;
+    padding: 7px;
+}
+button{
+    height: 35px;
+    margin: 5px 0px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+}
+button:hover{
+    background-color: #333;
+    color: skyblue;
+}
+.containers{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    background-color: palevioletred;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 450px;
+}
+input{
+    margin: 5px 0px;
+    height: 35px;
+    padding: 7px;
+}
+button{
+    height: 35px;
+    margin: 5px 0px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+}
+button:hover{
+    background-color: #333;
+    color: skyblue;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
